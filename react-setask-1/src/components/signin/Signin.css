@@ -1,0 +1,120 @@
+.signinBox{
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+.imageLogo{
+    width: 200px;
+    height: 40px;
+    background-position: center;
+}
+
+.leftBox{
+     height: 80vh;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    
+}
+
+.imageLogo {
+    margin-top: 35vh;
+    margin-left: 50vh;
+    justify-content: space-around;
+}
+
+
+
+.rightBox{
+ position: absolute; 
+ right: 0 ;
+ width: 50%;
+    height: 80vh;
+ background-color: #20b26a;
+}
+
+.box{
+   
+    width: 100%;
+    height: 100vh;
+    float: right;
+
+}
+
+.titleBox{
+    font-size: 22px;
+    margin-top: 150px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.inputS{
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+    color: #37353f;
+    text-indent: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+.text-1{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.btn-submit{
+    width: 180px;
+    margin-left: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #58dd9b;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .signinBox{
+        width: 100%;
+       
+    }
+    .leftBox{
+        display: none;
+    }
+    .rightBox{
+       
+        width: 100%;
+         min-height: 100vh;
+    }
+    .btn-submit{
+        margin-left: 30px;
+    }
+    .text-1{
+         margin-left: 30px;
+    }
+    .inputS{
+         margin-left: 30px;
+         width:80%;
+    }
+    .titleBox{
+         margin-left: 30px;
+         margin-top: 80px;
+         margin-bottom: 20px;
+    }
+}
+
+
